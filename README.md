@@ -7,4 +7,4 @@ The application expects either zero or one argument when being started. If the a
 
 How to run: open project in IDE and run the GeoipApplication class or use maven spring-boot:run goal.
 
-Server replies to get requests at http://localhost:8083/geoip/{ip} (e.g. http://localhost:8083/geoip/8.8.8.8) with jsons containing geoIp data.
+Server replies to Get requests at http://localhost:8083/geoip/{ip} (e.g. http://localhost:8083/geoip/8.8.8.8) with jsons containing geoIp data.
